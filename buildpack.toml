@@ -1,0 +1,21 @@
+api = "0.6"
+
+[buildpack]
+id = "sam/proc-descriptor"
+version = "0.0.1"
+name = "Proc Descriptor"
+desription = "Add processes to your docker image using project descriptor"
+homepage = "https://github.com/samj1912/proc-descriptor-buildpack"
+keywords = ["project", "descriptor", "process"]
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
