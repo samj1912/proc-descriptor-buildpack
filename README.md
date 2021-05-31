@@ -6,13 +6,13 @@ This is a [Cloud Native Buildpack](https://buildpacks.io) that configures [proce
 
 ## Usage
 
-The buildpack automatically generates a host key when you run a build:
+The buildpack automatically generates runtime processes when you run a build:
 
 ```bash
 pack build --buildpack sam/proc-descriptor myapp
 ```
 
-You can customize the SSH configuration by creating a `project.toml` file in your application, and a table like:
+You can customize the process types by creating a `project.toml` file in your application, and a table like:
 
 ```toml
 [[io.buildpacks.processes]]
