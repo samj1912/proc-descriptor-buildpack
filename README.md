@@ -29,7 +29,7 @@ The keys in the `io.buildpacks.processes` table map directly to [the keys descri
 
 For example create a `project.toml` file with the following content - 
 
-```
+```toml
 [[io.buildpacks.processes]]
 type = "web"
 command = "echo"
